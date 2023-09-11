@@ -1,0 +1,10 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.accionmfb.omnibus.logger.OmniBusApiLogger,\
+com.accionmfb.omnibus.web.OmniBusRestImpl,\
+com.accionmfb.omnibus.jwt.PatUtil,\
+com.accionmfb.omnibus.advice.OmniBusExceptionAdvice,\
+com.accionmfb.omnibus.jwt.JwtTokenUtil,\
+com.accionmfb.omnibus.service.impl.OmniBusServiceImpl,\
+com.accionmfb.omnibus.filter.PatSessionFilter,\
+com.accionmfb.omnibus.repository.impl.OmniBusRepositoryImpl,\
+com.accionmfb.omnibus.config.ModuleConfig
